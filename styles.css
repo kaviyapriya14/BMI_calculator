@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; 
+}
+
+#bmi-container {
+  text-align: center;
+  margin-top: 50px;
+  padding-left: 500px;
+  padding-right: 500px;
+  box-sizing: border-box; 
+  padding: 20px; 
+}
+
+#weight-display,
+#height-display {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+h2{
+  background-color: rgb(6, 6, 102);
+  color: white;
+  padding: 20px;
+ 
+}
+.Circle{
+    display: inline-block;
+    width: 60px;
+    height: 50px;
+    border-radius: 10%;
+    background-color: rgb(6, 6, 102);
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+  
+  
+}
+
+@media only screen and (min-width: 600px) {
+  #bmi-container {
+    margin: 50px auto; 
+    max-width: 600px;
+  }
+
+
+
+}
