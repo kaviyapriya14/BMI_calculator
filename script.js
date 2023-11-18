@@ -18,7 +18,7 @@ function calculateBMI() {
   const weight = document.getElementById('weight').value;
   const height = document.getElementById('height').value;
 
-  const bmi = (weight / ((height / 100) ** 2)).toFixed(1);
+  const bmi = (weight / ((height*height)/10000)).toFixed(1);
 
   const resultElement = document.getElementById('result');
   resultElement.innerHTML ='<div class="Circle">'+bmi+' </div>';
