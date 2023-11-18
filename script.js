@@ -18,10 +18,6 @@ function calculateBMI() {
   const weight = document.getElementById('weight').value;
   const height = document.getElementById('height').value;
 
-  if (!weight || !height) {
-    return; 
-  }
-
   const bmi = (weight / ((height / 100) ** 2)).toFixed(1);
 
   const resultElement = document.getElementById('result');
